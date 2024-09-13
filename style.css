@@ -1,0 +1,65 @@
+/* google fonts  */
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+/* google fonts  */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    flex-direction: column;
+    gap: 30px;
+   
+    .Clock{
+        display: flex;
+        div{
+            width: 150px;
+            height: 150px;
+            margin-right: 20px;
+            border-radius: 15px;
+            background-color: #00712D;
+            text-align: center;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            color: #FFFBE6;
+            h1{
+                font-size: 60px;
+                font-family: "Lato", sans-serif;
+            }
+            p{
+                font-family: "Dosis", sans-serif;
+                font-family: "Nunito", sans-serif;
+                text-transform: capitalize;
+    
+            }
+            
+        }
+    }
+}
+.Seconds{
+position: relative;
+    #ampm{
+        position: absolute;
+        right: -65px;
+        bottom: 0;
+        height: 50px;
+        width: 50px;
+        border-radius: 5px;
+        background-color: #00712D;
+        color: white;       
+        line-height: 50px;
+        text-align: center;
+    }
+}
